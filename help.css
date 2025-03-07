@@ -1,0 +1,74 @@
+.help-and-support {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.help-and-support:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.help-and-support h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.help-and-support h2:hover {
+    color: #ff6600;
+    transform: translateY(-3px);
+}
+
+.support-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.support-form label {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #555;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.support-form label:hover {
+    color: #ff6600;
+    transform: translateX(3px);
+}
+
+.support-form input, .support-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.support-form input:hover, .support-form textarea:hover {
+    border-color: #ff6600;
+    transform: translateY(-3px);
+}
+
+.support-form button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.support-form button:hover {
+    background-color: #e65c00;
+    transform: translateY(-3px);
+}
